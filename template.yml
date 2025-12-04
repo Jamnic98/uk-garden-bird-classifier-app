@@ -1,12 +1,12 @@
 AWSTemplateFormatVersion: "2010-09-09"
 Transform: AWS::Serverless-2016-10-31
-Description: UK Garden Bird Classifier FastAPI Lambda
+Description: UK Garden Bird Classifier FastAPI Lambda with ONNX model from S3
 
 Globals:
   Function:
-    Timeout: 10
-    MemorySize: 1024
     Runtime: python3.11
+    MemorySize: 2048      # more memory for ONNX inference
+    Timeout: 30           # longer timeout for model download & inference
 
 Resources:
   # ----------------------
@@ -17,6 +17,13 @@ Resources:
     Properties:
       Handler: app.main.handler
       FunctionName: uk-garden-bird-classifier-app
+      Environment:
+        Variables:
+          MODEL_BUCKET: my-garden-bird-models           # S3 bucket with ONNX model
+          MODEL_KEY: models/cnn_best.onnx          # key of the ONNX file in S3
+      Policies:
+        - S3ReadPolicy:
+            BucketName: my-garden-bird-models
       Events:
         Proxy:
           Type: HttpApi
