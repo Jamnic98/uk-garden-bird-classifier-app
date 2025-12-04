@@ -1,0 +1,49 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+Description: UK Garden Bird Classifier FastAPI Lambda
+
+Globals:
+  Function:
+    Timeout: 10
+    MemorySize: 1024
+    Runtime: python3.11
+
+Resources:
+  # ----------------------
+  # FastAPI Lambda Function
+  # ----------------------
+  FastApiFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: app.main.handler
+      FunctionName: uk-garden-bird-classifier-app
+      Events:
+        Proxy:
+          Type: HttpApi
+          Properties:
+            Path: /{proxy+}
+            Method: ANY
+            ApiId: !Ref ApiGateway
+
+  # ----------------------
+  # HTTP API Gateway
+  # ----------------------
+  ApiGateway:
+    Type: AWS::Serverless::HttpApi
+    Properties:
+      CorsConfiguration:
+        AllowOrigins:
+          - "*"
+        AllowMethods:
+          - GET
+          - POST
+          - OPTIONS
+
+Outputs:
+  ApiUrl:
+    Description: "FastAPI API Gateway URL"
+    Value: !Sub "https://${ApiGateway}.execute-api.${AWS::Region}.amazonaws.com"
+
+  HandlerFunction:
+    Description: "Mangum Handler Function ARN"
+    Value: !GetAtt FastApiFunction.Arn
