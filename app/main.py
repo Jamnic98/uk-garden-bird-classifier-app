@@ -1,4 +1,3 @@
-from mangum import Mangum
 from fastapi.templating import Jinja2Templates
 from fastapi import FastAPI, File, Request, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
@@ -6,16 +5,11 @@ from PIL import Image, UnidentifiedImageError
 import io
 import numpy as np
 import onnxruntime as ort
-import boto3
 import os
 
-templates = Jinja2Templates(directory="app/templates")  # templates folder
+templates = Jinja2Templates(directory="templates")  # templates folder
 
 app = FastAPI()
-
-def handler(event: dict, _context=None):
-    asgi_handler = Mangum(app)
-    return asgi_handler(event, _context)
 
 # Allow requests from frontend if served separately
 app.add_middleware(
@@ -25,24 +19,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# --- S3 model download setup ---
-S3_BUCKET = "my-garden-bird-models"                 # replace with your bucket
-S3_MODEL_KEY = "models/cnn_best.onnx"          # replace if needed
-LOCAL_MODEL_PATH = "/tmp/cnn_best.onnx"       # Lambda writable folder
-
-s3 = boto3.client("s3")
-
-# Download model if it doesn't exist
+# --- Load local ONNX model ---
+LOCAL_MODEL_PATH = os.path.join("models", "cnn_best_single.onnx")
 if not os.path.exists(LOCAL_MODEL_PATH):
-    print("Downloading ONNX model from S3...")
-    s3.download_file(S3_BUCKET, S3_MODEL_KEY, LOCAL_MODEL_PATH)
-    # Also download external data file if present
-    try:
-        s3.download_file(S3_BUCKET, S3_MODEL_KEY + ".data", LOCAL_MODEL_PATH + ".data")
-    except s3.exceptions.ClientError:
-        pass  # file may not exist
+    raise FileNotFoundError(f"ONNX model not found at {LOCAL_MODEL_PATH}")
 
-# --- Load ONNX model ---
 ort_session = ort.InferenceSession(LOCAL_MODEL_PATH)
 
 # --- Class names ---

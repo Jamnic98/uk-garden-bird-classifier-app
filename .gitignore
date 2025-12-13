@@ -3,5 +3,4 @@ __pycache__
 onnxruntime-layer.zip
 layer
 
-cnn_*
 .aws-sam/

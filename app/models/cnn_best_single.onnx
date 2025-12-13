@@ -1,0 +1,1538 @@
+
+pytorch2.9.1+cu128:¸î
+´
+input
+features.0.0.weight
+features.0.0.biasgetitemnode_Conv_104"Conv*
+group†*
+pads@@@@†*
+auto_pad"NOTSET†*
+strides@@†*
+	dilations@@†
+·
+
+getitem
+val_6val_7
+node_Div_7"DivJ¿
+	namespace≤: cnn.CNN/features: torch.nn.modules.container.Sequential/features.0: torch.nn.modules.container.Sequential/features.0.2: torch.nn.modules.activation.GELU/gelu: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']JÑ
+pkg.torch.onnx.fx_nodej%gelu : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem,), kwargs = {})JT
+pkg.torch.onnx.name_scopes6['', 'features', 'features.0', 'features.0.2', 'gelu']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+ÿ
+
+val_7val_8
+node_Erf_8"ErfJ¿
+	namespace≤: cnn.CNN/features: torch.nn.modules.container.Sequential/features.0: torch.nn.modules.container.Sequential/features.0.2: torch.nn.modules.activation.GELU/gelu: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']JÑ
+pkg.torch.onnx.fx_nodej%gelu : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem,), kwargs = {})JT
+pkg.torch.onnx.name_scopes6['', 'features', 'features.0', 'features.0.2', 'gelu']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+·
+
+val_8
+val_9val_10node_Add_10"AddJ¿
+	namespace≤: cnn.CNN/features: torch.nn.modules.container.Sequential/features.0: torch.nn.modules.container.Sequential/features.0.2: torch.nn.modules.activation.GELU/gelu: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']JÑ
+pkg.torch.onnx.fx_nodej%gelu : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem,), kwargs = {})JT
+pkg.torch.onnx.name_scopes6['', 'features', 'features.0', 'features.0.2', 'gelu']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+„
+
+val_11
+val_10val_12node_Mul_12"MulJ¿
+	namespace≤: cnn.CNN/features: torch.nn.modules.container.Sequential/features.0: torch.nn.modules.container.Sequential/features.0.2: torch.nn.modules.activation.GELU/gelu: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']JÑ
+pkg.torch.onnx.fx_nodej%gelu : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem,), kwargs = {})JT
+pkg.torch.onnx.name_scopes6['', 'features', 'features.0', 'features.0.2', 'gelu']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+‡
+
+getitem
+val_12gelu	node_gelu"MulJ¿
+	namespace≤: cnn.CNN/features: torch.nn.modules.container.Sequential/features.0: torch.nn.modules.container.Sequential/features.0.2: torch.nn.modules.activation.GELU/gelu: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']JÑ
+pkg.torch.onnx.fx_nodej%gelu : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem,), kwargs = {})JT
+pkg.torch.onnx.name_scopes6['', 'features', 'features.0', 'features.0.2', 'gelu']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+¨
+gelu
+features.0.3.weight
+features.0.3.bias	getitem_3node_Conv_105"Conv*
+group†*
+pads@@@@†*
+auto_pad"NOTSET†*
+strides@@†*
+	dilations@@†
+Ì
+
+	getitem_3
+val_6val_18node_Div_18"DivJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.0: torch.nn.modules.container.Sequential/features.0.5: torch.nn.modules.activation.GELU/gelu_1: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jà
+pkg.torch.onnx.fx_noden%gelu_1 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_3,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.0', 'features.0.5', 'gelu_1']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+„
+
+val_18val_19node_Erf_19"ErfJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.0: torch.nn.modules.container.Sequential/features.0.5: torch.nn.modules.activation.GELU/gelu_1: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jà
+pkg.torch.onnx.fx_noden%gelu_1 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_3,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.0', 'features.0.5', 'gelu_1']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+Í
+
+val_19
+val_9val_21node_Add_21"AddJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.0: torch.nn.modules.container.Sequential/features.0.5: torch.nn.modules.activation.GELU/gelu_1: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jà
+pkg.torch.onnx.fx_noden%gelu_1 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_3,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.0', 'features.0.5', 'gelu_1']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+Î
+
+val_11
+val_21val_23node_Mul_23"MulJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.0: torch.nn.modules.container.Sequential/features.0.5: torch.nn.modules.activation.GELU/gelu_1: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jà
+pkg.torch.onnx.fx_noden%gelu_1 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_3,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.0', 'features.0.5', 'gelu_1']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+Ó
+
+	getitem_3
+val_23gelu_1node_gelu_1"MulJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.0: torch.nn.modules.container.Sequential/features.0.5: torch.nn.modules.activation.GELU/gelu_1: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jà
+pkg.torch.onnx.fx_noden%gelu_1 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_3,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.0', 'features.0.5', 'gelu_1']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+å
+gelu_1
+max_pool2dnode_max_pool2d"MaxPool*
+storage_order †*
+	dilations@@†*
+	ceil_mode †*
+pads@ @ @ @ †*
+auto_pad"NOTSET†*
+strides@@†*
+kernel_shape@@†JŒ
+	namespace¿: cnn.CNN/features: torch.nn.modules.container.Sequential/features.0: torch.nn.modules.container.Sequential/features.0.6: torch.nn.modules.pooling.MaxPool2d/max_pool2d: aten.max_pool2d.defaultJ¡
+pkg.torch.onnx.class_hierarchyû['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.pooling.MaxPool2d', 'aten.max_pool2d.default']Jü
+pkg.torch.onnx.fx_nodeÑ%max_pool2d : [num_users=1] = call_function[target=torch.ops.aten.max_pool2d.default](args = (%gelu_1, [2, 2], [2, 2]), kwargs = {})JZ
+pkg.torch.onnx.name_scopes<['', 'features', 'features.0', 'features.0.6', 'max_pool2d']Jπ
+pkg.torch.onnx.stack_traceöFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/pooling.py", line 226, in forward
+    return F.max_pool2d(
+≤
+
+max_pool2d
+features.1.0.weight
+features.1.0.bias	getitem_6node_Conv_106"Conv*
+group†*
+pads@@@@†*
+auto_pad"NOTSET†*
+strides@@†*
+	dilations@@†
+Ì
+
+	getitem_6
+val_6val_30node_Div_29"DivJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.1: torch.nn.modules.container.Sequential/features.1.2: torch.nn.modules.activation.GELU/gelu_2: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jà
+pkg.torch.onnx.fx_noden%gelu_2 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_6,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.1', 'features.1.2', 'gelu_2']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+„
+
+val_30val_31node_Erf_30"ErfJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.1: torch.nn.modules.container.Sequential/features.1.2: torch.nn.modules.activation.GELU/gelu_2: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jà
+pkg.torch.onnx.fx_noden%gelu_2 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_6,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.1', 'features.1.2', 'gelu_2']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+Í
+
+val_31
+val_9val_33node_Add_32"AddJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.1: torch.nn.modules.container.Sequential/features.1.2: torch.nn.modules.activation.GELU/gelu_2: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jà
+pkg.torch.onnx.fx_noden%gelu_2 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_6,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.1', 'features.1.2', 'gelu_2']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+Î
+
+val_11
+val_33val_35node_Mul_34"MulJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.1: torch.nn.modules.container.Sequential/features.1.2: torch.nn.modules.activation.GELU/gelu_2: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jà
+pkg.torch.onnx.fx_noden%gelu_2 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_6,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.1', 'features.1.2', 'gelu_2']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+Ó
+
+	getitem_6
+val_35gelu_2node_gelu_2"MulJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.1: torch.nn.modules.container.Sequential/features.1.2: torch.nn.modules.activation.GELU/gelu_2: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jà
+pkg.torch.onnx.fx_noden%gelu_2 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_6,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.1', 'features.1.2', 'gelu_2']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+Æ
+gelu_2
+features.1.3.weight
+features.1.3.bias	getitem_9node_Conv_107"Conv*
+group†*
+pads@@@@†*
+auto_pad"NOTSET†*
+strides@@†*
+	dilations@@†
+Ì
+
+	getitem_9
+val_6val_41node_Div_40"DivJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.1: torch.nn.modules.container.Sequential/features.1.5: torch.nn.modules.activation.GELU/gelu_3: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jà
+pkg.torch.onnx.fx_noden%gelu_3 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_9,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.1', 'features.1.5', 'gelu_3']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+„
+
+val_41val_42node_Erf_41"ErfJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.1: torch.nn.modules.container.Sequential/features.1.5: torch.nn.modules.activation.GELU/gelu_3: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jà
+pkg.torch.onnx.fx_noden%gelu_3 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_9,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.1', 'features.1.5', 'gelu_3']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+Í
+
+val_42
+val_9val_44node_Add_43"AddJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.1: torch.nn.modules.container.Sequential/features.1.5: torch.nn.modules.activation.GELU/gelu_3: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jà
+pkg.torch.onnx.fx_noden%gelu_3 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_9,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.1', 'features.1.5', 'gelu_3']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+Î
+
+val_11
+val_44val_46node_Mul_45"MulJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.1: torch.nn.modules.container.Sequential/features.1.5: torch.nn.modules.activation.GELU/gelu_3: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jà
+pkg.torch.onnx.fx_noden%gelu_3 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_9,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.1', 'features.1.5', 'gelu_3']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+Ó
+
+	getitem_9
+val_46gelu_3node_gelu_3"MulJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.1: torch.nn.modules.container.Sequential/features.1.5: torch.nn.modules.activation.GELU/gelu_3: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jà
+pkg.torch.onnx.fx_noden%gelu_3 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_9,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.1', 'features.1.5', 'gelu_3']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+ñ
+gelu_3max_pool2d_1node_max_pool2d_1"MaxPool*
+storage_order †*
+	dilations@@†*
+	ceil_mode †*
+pads@ @ @ @ †*
+auto_pad"NOTSET†*
+strides@@†*
+kernel_shape@@†J–
+	namespace¬: cnn.CNN/features: torch.nn.modules.container.Sequential/features.1: torch.nn.modules.container.Sequential/features.1.6: torch.nn.modules.pooling.MaxPool2d/max_pool2d_1: aten.max_pool2d.defaultJ¡
+pkg.torch.onnx.class_hierarchyû['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.pooling.MaxPool2d', 'aten.max_pool2d.default']J°
+pkg.torch.onnx.fx_nodeÜ%max_pool2d_1 : [num_users=1] = call_function[target=torch.ops.aten.max_pool2d.default](args = (%gelu_3, [2, 2], [2, 2]), kwargs = {})J\
+pkg.torch.onnx.name_scopes>['', 'features', 'features.1', 'features.1.6', 'max_pool2d_1']Jπ
+pkg.torch.onnx.stack_traceöFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/pooling.py", line 226, in forward
+    return F.max_pool2d(
+µ
+max_pool2d_1
+features.2.0.weight
+features.2.0.bias
+getitem_12node_Conv_108"Conv*
+group†*
+pads@@@@†*
+auto_pad"NOTSET†*
+strides@@†*
+	dilations@@†
+Ô
+
+
+getitem_12
+val_6val_53node_Div_51"DivJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.2: torch.nn.modules.container.Sequential/features.2.2: torch.nn.modules.activation.GELU/gelu_4: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jâ
+pkg.torch.onnx.fx_nodeo%gelu_4 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_12,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.2', 'features.2.2', 'gelu_4']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+‰
+
+val_53val_54node_Erf_52"ErfJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.2: torch.nn.modules.container.Sequential/features.2.2: torch.nn.modules.activation.GELU/gelu_4: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jâ
+pkg.torch.onnx.fx_nodeo%gelu_4 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_12,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.2', 'features.2.2', 'gelu_4']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+Î
+
+val_54
+val_9val_56node_Add_54"AddJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.2: torch.nn.modules.container.Sequential/features.2.2: torch.nn.modules.activation.GELU/gelu_4: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jâ
+pkg.torch.onnx.fx_nodeo%gelu_4 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_12,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.2', 'features.2.2', 'gelu_4']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+Ï
+
+val_11
+val_56val_58node_Mul_56"MulJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.2: torch.nn.modules.container.Sequential/features.2.2: torch.nn.modules.activation.GELU/gelu_4: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jâ
+pkg.torch.onnx.fx_nodeo%gelu_4 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_12,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.2', 'features.2.2', 'gelu_4']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+
+
+
+getitem_12
+val_58gelu_4node_gelu_4"MulJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.2: torch.nn.modules.container.Sequential/features.2.2: torch.nn.modules.activation.GELU/gelu_4: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jâ
+pkg.torch.onnx.fx_nodeo%gelu_4 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_12,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.2', 'features.2.2', 'gelu_4']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+Ø
+gelu_4
+features.2.3.weight
+features.2.3.bias
+getitem_15node_Conv_109"Conv*
+group†*
+pads@@@@†*
+auto_pad"NOTSET†*
+strides@@†*
+	dilations@@†
+Ô
+
+
+getitem_15
+val_6val_64node_Div_62"DivJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.2: torch.nn.modules.container.Sequential/features.2.5: torch.nn.modules.activation.GELU/gelu_5: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jâ
+pkg.torch.onnx.fx_nodeo%gelu_5 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_15,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.2', 'features.2.5', 'gelu_5']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+‰
+
+val_64val_65node_Erf_63"ErfJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.2: torch.nn.modules.container.Sequential/features.2.5: torch.nn.modules.activation.GELU/gelu_5: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jâ
+pkg.torch.onnx.fx_nodeo%gelu_5 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_15,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.2', 'features.2.5', 'gelu_5']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+Î
+
+val_65
+val_9val_67node_Add_65"AddJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.2: torch.nn.modules.container.Sequential/features.2.5: torch.nn.modules.activation.GELU/gelu_5: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jâ
+pkg.torch.onnx.fx_nodeo%gelu_5 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_15,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.2', 'features.2.5', 'gelu_5']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+Ï
+
+val_11
+val_67val_69node_Mul_67"MulJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.2: torch.nn.modules.container.Sequential/features.2.5: torch.nn.modules.activation.GELU/gelu_5: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jâ
+pkg.torch.onnx.fx_nodeo%gelu_5 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_15,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.2', 'features.2.5', 'gelu_5']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+
+
+
+getitem_15
+val_69gelu_5node_gelu_5"MulJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.2: torch.nn.modules.container.Sequential/features.2.5: torch.nn.modules.activation.GELU/gelu_5: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jâ
+pkg.torch.onnx.fx_nodeo%gelu_5 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_15,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.2', 'features.2.5', 'gelu_5']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+ñ
+gelu_5max_pool2d_2node_max_pool2d_2"MaxPool*
+storage_order †*
+	dilations@@†*
+	ceil_mode †*
+pads@ @ @ @ †*
+auto_pad"NOTSET†*
+strides@@†*
+kernel_shape@@†J–
+	namespace¬: cnn.CNN/features: torch.nn.modules.container.Sequential/features.2: torch.nn.modules.container.Sequential/features.2.6: torch.nn.modules.pooling.MaxPool2d/max_pool2d_2: aten.max_pool2d.defaultJ¡
+pkg.torch.onnx.class_hierarchyû['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.pooling.MaxPool2d', 'aten.max_pool2d.default']J°
+pkg.torch.onnx.fx_nodeÜ%max_pool2d_2 : [num_users=1] = call_function[target=torch.ops.aten.max_pool2d.default](args = (%gelu_5, [2, 2], [2, 2]), kwargs = {})J\
+pkg.torch.onnx.name_scopes>['', 'features', 'features.2', 'features.2.6', 'max_pool2d_2']Jπ
+pkg.torch.onnx.stack_traceöFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/pooling.py", line 226, in forward
+    return F.max_pool2d(
+µ
+max_pool2d_2
+features.3.0.weight
+features.3.0.bias
+getitem_18node_Conv_110"Conv*
+group†*
+pads@@@@†*
+auto_pad"NOTSET†*
+strides@@†*
+	dilations@@†
+Ô
+
+
+getitem_18
+val_6val_76node_Div_73"DivJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.3: torch.nn.modules.container.Sequential/features.3.2: torch.nn.modules.activation.GELU/gelu_6: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jâ
+pkg.torch.onnx.fx_nodeo%gelu_6 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_18,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.3', 'features.3.2', 'gelu_6']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+‰
+
+val_76val_77node_Erf_74"ErfJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.3: torch.nn.modules.container.Sequential/features.3.2: torch.nn.modules.activation.GELU/gelu_6: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jâ
+pkg.torch.onnx.fx_nodeo%gelu_6 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_18,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.3', 'features.3.2', 'gelu_6']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+Î
+
+val_77
+val_9val_79node_Add_76"AddJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.3: torch.nn.modules.container.Sequential/features.3.2: torch.nn.modules.activation.GELU/gelu_6: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jâ
+pkg.torch.onnx.fx_nodeo%gelu_6 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_18,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.3', 'features.3.2', 'gelu_6']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+Ï
+
+val_11
+val_79val_81node_Mul_78"MulJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.3: torch.nn.modules.container.Sequential/features.3.2: torch.nn.modules.activation.GELU/gelu_6: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jâ
+pkg.torch.onnx.fx_nodeo%gelu_6 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_18,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.3', 'features.3.2', 'gelu_6']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+
+
+
+getitem_18
+val_81gelu_6node_gelu_6"MulJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.3: torch.nn.modules.container.Sequential/features.3.2: torch.nn.modules.activation.GELU/gelu_6: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jâ
+pkg.torch.onnx.fx_nodeo%gelu_6 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_18,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.3', 'features.3.2', 'gelu_6']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+Ø
+gelu_6
+features.3.3.weight
+features.3.3.bias
+getitem_21node_Conv_111"Conv*
+group†*
+pads@@@@†*
+auto_pad"NOTSET†*
+strides@@†*
+	dilations@@†
+Ô
+
+
+getitem_21
+val_6val_87node_Div_84"DivJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.3: torch.nn.modules.container.Sequential/features.3.5: torch.nn.modules.activation.GELU/gelu_7: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jâ
+pkg.torch.onnx.fx_nodeo%gelu_7 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_21,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.3', 'features.3.5', 'gelu_7']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+‰
+
+val_87val_88node_Erf_85"ErfJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.3: torch.nn.modules.container.Sequential/features.3.5: torch.nn.modules.activation.GELU/gelu_7: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jâ
+pkg.torch.onnx.fx_nodeo%gelu_7 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_21,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.3', 'features.3.5', 'gelu_7']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+Î
+
+val_88
+val_9val_90node_Add_87"AddJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.3: torch.nn.modules.container.Sequential/features.3.5: torch.nn.modules.activation.GELU/gelu_7: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jâ
+pkg.torch.onnx.fx_nodeo%gelu_7 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_21,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.3', 'features.3.5', 'gelu_7']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+Ï
+
+val_11
+val_90val_92node_Mul_89"MulJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.3: torch.nn.modules.container.Sequential/features.3.5: torch.nn.modules.activation.GELU/gelu_7: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jâ
+pkg.torch.onnx.fx_nodeo%gelu_7 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_21,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.3', 'features.3.5', 'gelu_7']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+
+
+
+getitem_21
+val_92gelu_7node_gelu_7"MulJ¬
+	namespace¥: cnn.CNN/features: torch.nn.modules.container.Sequential/features.3: torch.nn.modules.container.Sequential/features.3.5: torch.nn.modules.activation.GELU/gelu_7: aten.gelu.defaultJπ
+pkg.torch.onnx.class_hierarchyñ['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']Jâ
+pkg.torch.onnx.fx_nodeo%gelu_7 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%getitem_21,), kwargs = {})JV
+pkg.torch.onnx.name_scopes8['', 'features', 'features.3', 'features.3.5', 'gelu_7']J⁄
+pkg.torch.onnx.stack_traceªFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+ñ
+gelu_7max_pool2d_3node_max_pool2d_3"MaxPool*
+storage_order †*
+	dilations@@†*
+	ceil_mode †*
+pads@ @ @ @ †*
+auto_pad"NOTSET†*
+strides@@†*
+kernel_shape@@†J–
+	namespace¬: cnn.CNN/features: torch.nn.modules.container.Sequential/features.3: torch.nn.modules.container.Sequential/features.3.6: torch.nn.modules.pooling.MaxPool2d/max_pool2d_3: aten.max_pool2d.defaultJ¡
+pkg.torch.onnx.class_hierarchyû['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.pooling.MaxPool2d', 'aten.max_pool2d.default']J°
+pkg.torch.onnx.fx_nodeÜ%max_pool2d_3 : [num_users=1] = call_function[target=torch.ops.aten.max_pool2d.default](args = (%gelu_7, [2, 2], [2, 2]), kwargs = {})J\
+pkg.torch.onnx.name_scopes>['', 'features', 'features.3', 'features.3.6', 'max_pool2d_3']Jπ
+pkg.torch.onnx.stack_traceöFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 37, in forward
+    x = self.features(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/pooling.py", line 226, in forward
+    return F.max_pool2d(
+Â
+max_pool2d_3
+val_96mean	node_mean"
+ReduceMean*
+noop_with_empty_axes †*
+keepdims†J[
+	namespaceN: cnn.CNN/pool: torch.nn.modules.pooling.AdaptiveAvgPool2d/mean: aten.mean.dimJl
+pkg.torch.onnx.class_hierarchyJ['cnn.CNN', 'torch.nn.modules.pooling.AdaptiveAvgPool2d', 'aten.mean.dim']Jî
+pkg.torch.onnx.fx_nodez%mean : [num_users=1] = call_function[target=torch.ops.aten.mean.dim](args = (%max_pool2d_3, [-1, -2], True), kwargs = {})J2
+pkg.torch.onnx.name_scopes['', 'pool', 'mean']JÎ
+pkg.torch.onnx.stack_traceÃFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 38, in forward
+    x = self.pool(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/pooling.py", line 1500, in forward
+    return F.adaptive_avg_pool2d(input, self.output_size)
+ﬂ
+mean
+val_100view	node_view"Reshape*
+	allowzero†Jê
+	namespaceÇ: cnn.CNN/classifier: torch.nn.modules.container.Sequential/classifier.0: torch.nn.modules.flatten.Flatten/view: aten.view.defaultJè
+pkg.torch.onnx.class_hierarchym['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.flatten.Flatten', 'aten.view.default']Jä
+pkg.torch.onnx.fx_nodep%view : [num_users=1] = call_function[target=torch.ops.aten.view.default](args = (%mean, [1, 256]), kwargs = {})JH
+pkg.torch.onnx.name_scopes*['', 'classifier', 'classifier.0', 'view']J•
+pkg.torch.onnx.stack_traceÜFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 39, in forward
+    return self.classifier(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/flatten.py", line 56, in forward
+    return input.flatten(self.start_dim, self.end_dim)
+’	
+view
+classifier.1.weight
+classifier.1.biaslinearnode_linear"Gemm*
+beta  Ä?†*
+transB†*
+alpha  Ä?†*
+transA †Jí
+	namespaceÑ: cnn.CNN/classifier: torch.nn.modules.container.Sequential/classifier.1: torch.nn.modules.linear.Linear/linear: aten.linear.defaultJè
+pkg.torch.onnx.class_hierarchym['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.linear.Linear', 'aten.linear.default']J≥
+pkg.torch.onnx.fx_nodeò%linear : [num_users=1] = call_function[target=torch.ops.aten.linear.default](args = (%view, %p_classifier_1_weight, %p_classifier_1_bias), kwargs = {})JJ
+pkg.torch.onnx.name_scopes,['', 'classifier', 'classifier.1', 'linear']J°
+pkg.torch.onnx.stack_traceÇFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 39, in forward
+    return self.classifier(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/linear.py", line 134, in forward
+    return F.linear(input, self.weight, self.bias)
+—
+linear
+val_6val_102node_Div_98"DivJí
+	namespaceÑ: cnn.CNN/classifier: torch.nn.modules.container.Sequential/classifier.2: torch.nn.modules.activation.GELU/gelu_8: aten.gelu.defaultJè
+pkg.torch.onnx.class_hierarchym['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']JÖ
+pkg.torch.onnx.fx_nodek%gelu_8 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%linear,), kwargs = {})JJ
+pkg.torch.onnx.name_scopes,['', 'classifier', 'classifier.2', 'gelu_8']J©
+pkg.torch.onnx.stack_traceäFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 39, in forward
+    return self.classifier(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+À
+val_102val_103node_Erf_99"ErfJí
+	namespaceÑ: cnn.CNN/classifier: torch.nn.modules.container.Sequential/classifier.2: torch.nn.modules.activation.GELU/gelu_8: aten.gelu.defaultJè
+pkg.torch.onnx.class_hierarchym['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']JÖ
+pkg.torch.onnx.fx_nodek%gelu_8 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%linear,), kwargs = {})JJ
+pkg.torch.onnx.name_scopes,['', 'classifier', 'classifier.2', 'gelu_8']J©
+pkg.torch.onnx.stack_traceäFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 39, in forward
+    return self.classifier(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+”
+val_103
+val_9val_105node_Add_101"AddJí
+	namespaceÑ: cnn.CNN/classifier: torch.nn.modules.container.Sequential/classifier.2: torch.nn.modules.activation.GELU/gelu_8: aten.gelu.defaultJè
+pkg.torch.onnx.class_hierarchym['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']JÖ
+pkg.torch.onnx.fx_nodek%gelu_8 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%linear,), kwargs = {})JJ
+pkg.torch.onnx.name_scopes,['', 'classifier', 'classifier.2', 'gelu_8']J©
+pkg.torch.onnx.stack_traceäFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 39, in forward
+    return self.classifier(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+‘
+val_11
+val_105val_107node_Mul_103"MulJí
+	namespaceÑ: cnn.CNN/classifier: torch.nn.modules.container.Sequential/classifier.2: torch.nn.modules.activation.GELU/gelu_8: aten.gelu.defaultJè
+pkg.torch.onnx.class_hierarchym['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']JÖ
+pkg.torch.onnx.fx_nodek%gelu_8 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%linear,), kwargs = {})JJ
+pkg.torch.onnx.name_scopes,['', 'classifier', 'classifier.2', 'gelu_8']J©
+pkg.torch.onnx.stack_traceäFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 39, in forward
+    return self.classifier(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+“
+linear
+val_107gelu_8node_gelu_8"MulJí
+	namespaceÑ: cnn.CNN/classifier: torch.nn.modules.container.Sequential/classifier.2: torch.nn.modules.activation.GELU/gelu_8: aten.gelu.defaultJè
+pkg.torch.onnx.class_hierarchym['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.activation.GELU', 'aten.gelu.default']JÖ
+pkg.torch.onnx.fx_nodek%gelu_8 : [num_users=1] = call_function[target=torch.ops.aten.gelu.default](args = (%linear,), kwargs = {})JJ
+pkg.torch.onnx.name_scopes,['', 'classifier', 'classifier.2', 'gelu_8']J©
+pkg.torch.onnx.stack_traceäFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 39, in forward
+    return self.classifier(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/activation.py", line 816, in forward
+    return F.gelu(input, approximate=self.approximate)
+‡	
+gelu_8
+classifier.4.weight
+classifier.4.biasoutputnode_linear_1"Gemm*
+beta  Ä?†*
+transB†*
+alpha  Ä?†*
+transA †Jî
+	namespaceÜ: cnn.CNN/classifier: torch.nn.modules.container.Sequential/classifier.4: torch.nn.modules.linear.Linear/linear_1: aten.linear.defaultJè
+pkg.torch.onnx.class_hierarchym['cnn.CNN', 'torch.nn.modules.container.Sequential', 'torch.nn.modules.linear.Linear', 'aten.linear.default']J∂
+pkg.torch.onnx.fx_nodeõ%linear_1 : [num_users=1] = call_function[target=torch.ops.aten.linear.default](args = (%clone, %p_classifier_4_weight, %p_classifier_4_bias), kwargs = {})JL
+pkg.torch.onnx.name_scopes.['', 'classifier', 'classifier.4', 'linear_1']J°
+pkg.torch.onnx.stack_traceÇFile "/home/jamnic/programming/projects/uk-garden-bird-classifier/app/cnn.py", line 39, in forward
+    return self.classifier(x)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/home/jamnic/programming/projects/uk-garden-bird-classifier/.venv/lib/python3.11/site-packages/torch/nn/modules/linear.py", line 134, in forward
+    return F.linear(input, self.weight, self.bias)
+main_graph*h Bfeatures.0.0.weightj%
+locationcnn_best_single.onnx.dataj
+offset4096j
+length3456p*ö Bfeatures.0.0.biasJÄ≈¨Û=c∆?µ"ø˙CuΩ¡!ø)ITæ;˛>QH>ø}<@∆>≤í ø≤Y*ø˜Vƒæ4ú>‡cØæ"â>:ºæ¥π•ΩŸÖ>ìb¸æX «æﬂ˝µ><(?ÌºÁJ˛ΩBU>»©ÃªFÍ$ø^rõ=°ƒ=Ø¸æ-SGæ*j  Bfeatures.0.3.weightj%
+locationcnn_best_single.onnx.dataj
+offset18816j
+length36864p*ö Bfeatures.0.3.biasJÄ{˘ﬂ>§±?ﬁ…·>”ûΩ^;Zæqá?l5
+?¨“¬>V=˝«Ë=ﬂ>F<uö›>êÔ>Dl=¥‹È>ıÿ∆>&√>IY?S=†>ÅU2>öò¥>òˇ‚ΩØ6O?»Ê∫;WgæéœøÆƒÌæÀ,«>Ä¢ÿ>¥éÑø¿áø∏$?*j@ Bfeatures.1.0.weightj%
+locationcnn_best_single.onnx.dataj
+offset55680j
+length73728p*ö@Bfeatures.1.0.biasJÄ˙A4?Xâñæök…> ß¡8mD\?íﬂΩAlUøzzôæ"¥uæÓ¿a>ü?äÎZø©‹›><<æ*UFæw/z?º›Ä=±ß>≠ä1?ÑY>“Ô>ö& ?[òb?^|2øbÈ4?]µõæ§?∏2h?çàµ>vhæ=Ì)Ωû2œΩ)5>¶Q`?Qñ¬>PòîøùÕ=?Jnnæ´°æ6™ø>=ùÉΩ§‘Åæ>˘=º√qø)á?ó[»æ≈b?^äà>j¨bæ uø/X™?∫úÊ>U@ÏæÜ5L?¶Ÿó>:T>∑µg=†fÜ?M‰ÎΩˆzi?®ı+>êËºéÊ æ˚î4æ*l@@Bfeatures.1.3.weightj%
+locationcnn_best_single.onnx.dataj
+offset129408j
+length147456p*ö@Bfeatures.1.3.biasJÄŸΩ_>≈ó>?“ëæ:∏É?Vãø'¬ë?/Wæaùœ?∏˘?gÆ?*;¸æ0uyªß-?ñÌá>7.CøU§ >ökø∏T>fŸR?i2)?·±mæµb?∏˙}º©K?ÆCæÈ7?8˚<∞»?ªÄg?O®=?_ÊI?Ñ÷9?ÅLæ˜òé>t}?~Çc?HßÍ>°?læÜ?}ÿö?-HÛ>˙ÑÚ>íÙ!?ÔÃΩä!>#S*æØh?Ér?FÜ;ø~k®>ä%æ`&	øNfÿ>â&õ>Ç˘ß>Xæ¥áb?¥ˇ>¯%[>öQN?ÍÍ)?Gtê> 8?rùÁ=*mÄ@Bfeatures.2.0.weightj%
+locationcnn_best_single.onnx.dataj
+offset539008j
+length294912p*]ÄBfeatures.2.0.biasj%
+locationcnn_best_single.onnx.dataj
+offset0j
+length512p*nÄÄBfeatures.2.3.weightj%
+locationcnn_best_single.onnx.dataj
+offset833920j
+length589824p*_ÄBfeatures.2.3.biasj%
+locationcnn_best_single.onnx.dataj
+offset512j
+length512p*pÄÄBfeatures.3.0.weightj%
+locationcnn_best_single.onnx.dataj
+offset1441792j
+length1179648p*aÄBfeatures.3.0.biasj%
+locationcnn_best_single.onnx.dataj
+offset1024j
+length1024p*pÄÄBfeatures.3.3.weightj%
+locationcnn_best_single.onnx.dataj
+offset2621440j
+length2359296p*aÄBfeatures.3.3.biasj%
+locationcnn_best_single.onnx.dataj
+offset2048j
+length1024p*jÄÄBclassifier.1.weightj%
+locationcnn_best_single.onnx.dataj
+offset276864j
+length262144p*aÄBclassifier.1.biasj%
+locationcnn_best_single.onnx.dataj
+offset3072j
+length1024p*fÄBclassifier.4.weightj%
+locationcnn_best_single.onnx.dataj
+offset7552j
+length11264p*EBclassifier.4.biasJ,Ó|º)<PI!ºΩp]ΩÔlaΩ”Hº.qù<ﬁﬂ7=µ»º
+…;ÅF¡º*Bval_96Jˇˇˇˇˇˇˇˇ˛ˇˇˇˇˇˇˇ*Bval_100J              *Bval_6JÛµ?*Bval_9J  Ä?*Bval_11J   ?Z«
+input
+
+
+
+‡
+‡"=
+/pkg.torch.export.graph_signature.InputSpec.kind
+USER_INPUT"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"&
+!pkg.torch.onnx.original_node_namexbà
+output
+
+
+"?
+0pkg.torch.export.graph_signature.OutputSpec.kindUSER_OUTPUT"-
+!pkg.torch.onnx.original_node_namelinear_1j-
+features.0.0.weight
+
+ 
+
+
+j
+features.0.0.bias
+
+
+ j-
+features.0.3.weight
+
+ 
+ 
+
+j
+features.0.3.bias
+
+
+ j-
+features.1.0.weight
+
+@
+ 
+
+j
+features.1.0.bias
+
+
+@j-
+features.1.3.weight
+
+@
+@
+
+j
+features.1.3.bias
+
+
+@j.
+features.2.0.weight
+
+Ä
+@
+
+j 
+features.2.0.bias
+	
+Äj/
+features.2.3.weight
+
+Ä
+Ä
+
+j 
+features.2.3.bias
+	
+Äj/
+features.3.0.weight
+
+Ä
+Ä
+
+j 
+features.3.0.bias
+	
+Äj/
+features.3.3.weight
+
+Ä
+Ä
+
+j 
+features.3.3.bias
+	
+Äj‡
+classifier.1.weight
+
+
+Ä
+Ä"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone":
+!pkg.torch.onnx.original_node_namep_classifier_1_weightj◊
+classifier.1.bias
+	
+Ä"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"8
+!pkg.torch.onnx.original_node_namep_classifier_1_biasjﬂ
+classifier.4.weight
+	
+
+Ä"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone":
+!pkg.torch.onnx.original_node_namep_classifier_4_weightj÷
+classifier.4.bias
+
+
+"<
+/pkg.torch.export.graph_signature.InputSpec.kind	PARAMETER"=
+5pkg.torch.export.graph_signature.InputSpec.persistentNone"8
+!pkg.torch.onnx.original_node_namep_classifier_4_biasjR
+val_96
+
+
+"<
+$pkg.onnxscript.optimizer.folded_from['val_94', 'val_95']jS
+val_100
+
+
+"<
+$pkg.onnxscript.optimizer.folded_from['val_98', 'val_99']j
+val_6
+ j
+val_9
+ j
+val_11
+ j#
+getitem
+
+
+ 
+‡
+‡j!
+val_7
+
+
+ 
+‡
+‡j!
+val_8
+
+
+ 
+‡
+‡j"
+val_10
+
+
+ 
+‡
+‡j"
+val_12
+
+
+ 
+‡
+‡j 
+gelu
+
+
+ 
+‡
+‡j%
+	getitem_3
+
+
+ 
+‡
+‡j"
+val_18
+
+
+ 
+‡
+‡j"
+val_19
+
+
+ 
+‡
+‡j"
+val_21
+
+
+ 
+‡
+‡j"
+val_23
+
+
+ 
+‡
+‡j"
+gelu_1
+
+
+ 
+‡
+‡j$
+
+max_pool2d
+
+
+ 
+p
+pj#
+	getitem_6
+
+
+@
+p
+pj 
+val_30
+
+
+@
+p
+pj 
+val_31
+
+
+@
+p
+pj 
+val_33
+
+
+@
+p
+pj 
+val_35
+
+
+@
+p
+pj 
+gelu_2
+
+
+@
+p
+pj#
+	getitem_9
+
+
+@
+p
+pj 
+val_41
+
+
+@
+p
+pj 
+val_42
+
+
+@
+p
+pj 
+val_44
+
+
+@
+p
+pj 
+val_46
+
+
+@
+p
+pj 
+gelu_3
+
+
+@
+p
+pj&
+max_pool2d_1
+
+
+@
+8
+8j%
+
+getitem_12
+
+
+Ä
+8
+8j!
+val_53
+
+
+Ä
+8
+8j!
+val_54
+
+
+Ä
+8
+8j!
+val_56
+
+
+Ä
+8
+8j!
+val_58
+
+
+Ä
+8
+8j!
+gelu_4
+
+
+Ä
+8
+8j%
+
+getitem_15
+
+
+Ä
+8
+8j!
+val_64
+
+
+Ä
+8
+8j!
+val_65
+
+
+Ä
+8
+8j!
+val_67
+
+
+Ä
+8
+8j!
+val_69
+
+
+Ä
+8
+8j!
+gelu_5
+
+
+Ä
+8
+8j'
+max_pool2d_2
+
+
+Ä
+
+j%
+
+getitem_18
+
+
+Ä
+
+j!
+val_76
+
+
+Ä
+
+j!
+val_77
+
+
+Ä
+
+j!
+val_79
+
+
+Ä
+
+j!
+val_81
+
+
+Ä
+
+j!
+gelu_6
+
+
+Ä
+
+j%
+
+getitem_21
+
+
+Ä
+
+j!
+val_87
+
+
+Ä
+
+j!
+val_88
+
+
+Ä
+
+j!
+val_90
+
+
+Ä
+
+j!
+val_92
+
+
+Ä
+
+j!
+gelu_7
+
+
+Ä
+
+j'
+max_pool2d_3
+
+
+Ä
+
+j
+mean
+
+
+Ä
+
+j
+view
+	
+
+Äj
+linear
+	
+
+Äj
+val_102
+	
+
+Äj
+val_103
+	
+
+Äj
+val_105
+	
+
+Äj
+val_107
+	
+
+Äj
+gelu_8
+	
+
+ÄÇÊ"
+0pkg.torch.export.ExportedProgram.graph_signature±"
+# inputs
+p_features_0_0_weight: PARAMETER target='features.0.0.weight'
+p_features_0_0_bias: PARAMETER target='features.0.0.bias'
+p_features_0_1_weight: PARAMETER target='features.0.1.weight'
+p_features_0_1_bias: PARAMETER target='features.0.1.bias'
+p_features_0_3_weight: PARAMETER target='features.0.3.weight'
+p_features_0_3_bias: PARAMETER target='features.0.3.bias'
+p_features_0_4_weight: PARAMETER target='features.0.4.weight'
+p_features_0_4_bias: PARAMETER target='features.0.4.bias'
+p_features_1_0_weight: PARAMETER target='features.1.0.weight'
+p_features_1_0_bias: PARAMETER target='features.1.0.bias'
+p_features_1_1_weight: PARAMETER target='features.1.1.weight'
+p_features_1_1_bias: PARAMETER target='features.1.1.bias'
+p_features_1_3_weight: PARAMETER target='features.1.3.weight'
+p_features_1_3_bias: PARAMETER target='features.1.3.bias'
+p_features_1_4_weight: PARAMETER target='features.1.4.weight'
+p_features_1_4_bias: PARAMETER target='features.1.4.bias'
+p_features_2_0_weight: PARAMETER target='features.2.0.weight'
+p_features_2_0_bias: PARAMETER target='features.2.0.bias'
+p_features_2_1_weight: PARAMETER target='features.2.1.weight'
+p_features_2_1_bias: PARAMETER target='features.2.1.bias'
+p_features_2_3_weight: PARAMETER target='features.2.3.weight'
+p_features_2_3_bias: PARAMETER target='features.2.3.bias'
+p_features_2_4_weight: PARAMETER target='features.2.4.weight'
+p_features_2_4_bias: PARAMETER target='features.2.4.bias'
+p_features_3_0_weight: PARAMETER target='features.3.0.weight'
+p_features_3_0_bias: PARAMETER target='features.3.0.bias'
+p_features_3_1_weight: PARAMETER target='features.3.1.weight'
+p_features_3_1_bias: PARAMETER target='features.3.1.bias'
+p_features_3_3_weight: PARAMETER target='features.3.3.weight'
+p_features_3_3_bias: PARAMETER target='features.3.3.bias'
+p_features_3_4_weight: PARAMETER target='features.3.4.weight'
+p_features_3_4_bias: PARAMETER target='features.3.4.bias'
+p_classifier_1_weight: PARAMETER target='classifier.1.weight'
+p_classifier_1_bias: PARAMETER target='classifier.1.bias'
+p_classifier_4_weight: PARAMETER target='classifier.4.weight'
+p_classifier_4_bias: PARAMETER target='classifier.4.bias'
+b_features_0_1_running_mean: BUFFER target='features.0.1.running_mean' persistent=True
+b_features_0_1_running_var: BUFFER target='features.0.1.running_var' persistent=True
+b_features_0_1_num_batches_tracked: BUFFER target='features.0.1.num_batches_tracked' persistent=True
+b_features_0_4_running_mean: BUFFER target='features.0.4.running_mean' persistent=True
+b_features_0_4_running_var: BUFFER target='features.0.4.running_var' persistent=True
+b_features_0_4_num_batches_tracked: BUFFER target='features.0.4.num_batches_tracked' persistent=True
+b_features_1_1_running_mean: BUFFER target='features.1.1.running_mean' persistent=True
+b_features_1_1_running_var: BUFFER target='features.1.1.running_var' persistent=True
+b_features_1_1_num_batches_tracked: BUFFER target='features.1.1.num_batches_tracked' persistent=True
+b_features_1_4_running_mean: BUFFER target='features.1.4.running_mean' persistent=True
+b_features_1_4_running_var: BUFFER target='features.1.4.running_var' persistent=True
+b_features_1_4_num_batches_tracked: BUFFER target='features.1.4.num_batches_tracked' persistent=True
+b_features_2_1_running_mean: BUFFER target='features.2.1.running_mean' persistent=True
+b_features_2_1_running_var: BUFFER target='features.2.1.running_var' persistent=True
+b_features_2_1_num_batches_tracked: BUFFER target='features.2.1.num_batches_tracked' persistent=True
+b_features_2_4_running_mean: BUFFER target='features.2.4.running_mean' persistent=True
+b_features_2_4_running_var: BUFFER target='features.2.4.running_var' persistent=True
+b_features_2_4_num_batches_tracked: BUFFER target='features.2.4.num_batches_tracked' persistent=True
+b_features_3_1_running_mean: BUFFER target='features.3.1.running_mean' persistent=True
+b_features_3_1_running_var: BUFFER target='features.3.1.running_var' persistent=True
+b_features_3_1_num_batches_tracked: BUFFER target='features.3.1.num_batches_tracked' persistent=True
+b_features_3_4_running_mean: BUFFER target='features.3.4.running_mean' persistent=True
+b_features_3_4_running_var: BUFFER target='features.3.4.running_var' persistent=True
+b_features_3_4_num_batches_tracked: BUFFER target='features.3.4.num_batches_tracked' persistent=True
+x: USER_INPUT
+
+# outputs
+linear_1: USER_OUTPUT
+Ç8
+2pkg.torch.export.ExportedProgram.range_constraints{}B
+ 
