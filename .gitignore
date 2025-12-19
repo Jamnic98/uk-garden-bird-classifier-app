@@ -2,5 +2,5 @@ __pycache__
 .idea
 onnxruntime-layer.zip
 layer
-
+images
 .aws-sam/

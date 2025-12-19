@@ -7,7 +7,7 @@ import numpy as np
 import onnxruntime as ort
 import os
 
-templates = Jinja2Templates(directory="templates")  # templates folder
+templates = Jinja2Templates(directory="app/templates")  # templates folder
 
 app = FastAPI()
 
@@ -20,7 +20,7 @@ app.add_middleware(
 )
 
 # --- Load local ONNX model ---
-LOCAL_MODEL_PATH = os.path.join("models", "cnn_best_single.onnx")
+LOCAL_MODEL_PATH = os.path.join("app/models", "cnn_best_single.onnx")
 if not os.path.exists(LOCAL_MODEL_PATH):
     raise FileNotFoundError(f"ONNX model not found at {LOCAL_MODEL_PATH}")
 
