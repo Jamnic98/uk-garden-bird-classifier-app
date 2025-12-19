@@ -48,8 +48,4 @@ This project demonstrates:
 - Building and tuning a CNN from scratch  
 - Implementing real-time data augmentation and GPU optimisations  
 - Serving predictions via a robust web interface  
-- Practical deployment considerations such as rate limiting and request handling  
-
-## GitHub Repository
-
-[GitHub Repo](https://github.com/Jamnic98/uk-garden-bird-classifier-app)
+- Practical deployment considerations such as rate limiting and request handling
